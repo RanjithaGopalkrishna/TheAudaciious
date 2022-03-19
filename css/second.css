@@ -555,6 +555,14 @@ section .title::after {
 
 #footer {
     background: var(--nav-bg);
+    border-radius: 6px;
+    padding: 0;
+    margin: 0;
+}
+
+#footer ul {
+    padding: 1rem;
+    border-bottom: .1px solid var(--nav-text);
 }
 
 #footer li {
